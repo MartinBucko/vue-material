@@ -85,3 +85,16 @@ $chip-icon-font: $chip-icon-size - 4px;
     flex: 1;
   }
 }
+
+.md-chips-autocomplete {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.md-input-container .md-chips-autocomplete {
+  .md-autocomplete,
+  .md-autocomplete .md-menu,
+  .md-autocomplete .md-menu .md-input {
+    width: auto;
+  }
+}
