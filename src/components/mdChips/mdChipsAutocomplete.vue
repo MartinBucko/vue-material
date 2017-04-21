@@ -59,7 +59,7 @@
         currentChip: '',
         inputId: this.mdInputId || `chips-${uniqueId()}`,
         selectedChips: this.value,
-        parentContainer: null,
+        parentContainer: null
       };
     },
     computed: {

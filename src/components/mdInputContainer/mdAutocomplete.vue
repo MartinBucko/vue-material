@@ -45,7 +45,7 @@
         query: '',
         selected: null,
         timeout: 0,
-        parentContainer: null,
+        parentContainer: null
       };
     },
     computed: {
